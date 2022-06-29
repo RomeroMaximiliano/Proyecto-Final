@@ -1,0 +1,195 @@
+nav {
+  background: linear-gradient(0deg, #015958 0%, #023535 65%); }
+  nav img {
+    width: 60px; }
+  nav .header {
+    height: 75px; }
+  nav .nav {
+    height: 65px; }
+  nav .input_responsive input {
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #015958;
+    outline: none;
+    border-radius: 30px;
+    transition: all 0.6s ease; }
+  nav .input_responsive .btn {
+    position: relative;
+    right: 49px;
+    bottom: 2px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #015958;
+    color: white;
+    border-radius: 50%;
+    padding: 0px; }
+  nav .nav {
+    display: none; }
+  nav .input_responsive:hover input {
+    width: 240px; }
+  nav .nav_redirects i {
+    margin-right: 20px;
+    color: white; }
+  nav .redirects a {
+    color: white;
+    text-decoration: none; }
+  nav .SearchBar input {
+    width: 60%;
+    height: 42px;
+    background: #0CABA8;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 5px; }
+  nav .dropdown p {
+    color: white;
+    font-size: 20px; }
+  nav .List li {
+    list-style-type: none;
+    text-shadow: 0px 4px 4px black; }
+    nav .List li a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 25px;
+      color: white;
+      margin: 5px; }
+
+footer {
+  background-color: #d9d9d9; }
+  footer i {
+    color: #015958; }
+  footer p {
+    margin: 0;
+    padding: 2px; }
+  footer .Cont_Footer {
+    border-bottom: 2px solid #023535;
+    padding: 10px 0px; }
+    footer .Cont_Footer a {
+      text-decoration: none; }
+    footer .Cont_Footer i {
+      border-bottom: none; }
+  footer .Copy {
+    color: white;
+    bottom: 5px; }
+  @media screen and (min-width: 768px) {
+    footer .Cont_Footer {
+      border-bottom: none;
+      padding: 50px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main .Main_Section_img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "Ofertas Notebook Notebook" "Ofertas Notebook Notebook" "Ofertas Horario atencion";
+  padding: 5% 8%;
+  gap: 3%; }
+  main .Main_Section_img img {
+    height: 100%;
+    width: 100%; }
+
+main .Ofertas {
+  grid-area: Ofertas; }
+
+main .Notebook {
+  grid-area: Notebook; }
+
+main .Horario {
+  grid-area: Horario; }
+
+main .Attention {
+  grid-area: Atencion; }
+
+main .Carrousel_banner {
+  width: 80%; }
+
+main .Carrousel_Deskop {
+  width: 75%; }
+
+main .Carrousel_Mobile {
+  width: 62%; }
+
+main .Carrousel_inner {
+  background: #D0D0D0;
+  border-radius: 5px; }
+  main .Carrousel_inner .Cards-Wrap {
+    display: flex; }
+    main .Carrousel_inner .Cards-Wrap .card {
+      background-color: #bab9b9;
+      margin: 5px;
+      flex-direction: column;
+      text-align: center; }
+      main .Carrousel_inner .Cards-Wrap .card .card-body p {
+        font-size: 20px;
+        line-height: 41px; }
+
+.Cuenta {
+  background: #D9D9D9;
+  box-shadow: -2px 3px 12px 9px rgba(0, 0, 0, 0.25);
+  width: 100%; }
+  .Cuenta button {
+    width: 50%;
+    height: 60px;
+    background-color: #015958; }
+  .Cuenta a {
+    text-decoration: none; }
+  .Cuenta li {
+    list-style-type: none; }
+    .Cuenta li i {
+      color: #015958; }
+
+.Quienes_Somos .Banner img {
+  height: 350px; }
+
+.Quienes_Somos .Nosotros p {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.Quienes_Somos .Nosotros img {
+  width: 400px;
+  height: 400px; }
+
+@media screen and (max-width: 1200px) {
+  .Quienes_Somos .Nosotros {
+    flex-direction: column;
+    align-items: center; }
+  .Quienes_Somos .Nosotros p {
+    width: 100%;
+    margin-bottom: 20px; }
+  .Quienes_Somos .ComoTrabajamos {
+    flex-direction: column;
+    align-items: center; }
+  .Quienes_Somos .ComoTrabajamos p {
+    width: 100%;
+    order: 1; }
+  .Quienes_Somos .ComoTrabajamos IMG {
+    order: 2;
+    margin-top: 20px; } }
+
+.Register {
+  background: #D9D9D9;
+  box-shadow: -2px 3px 12px 9px rgba(0, 0, 0, 0.25);
+  width: 100%; }
+  .Register .list input {
+    width: 80%; }
+  .Register button {
+    width: 50%;
+    height: 60px;
+    background-color: #015958; }
+  .Register ul {
+    list-style-type: none; }
+    .Register ul i {
+      color: #023535; }
+
+main {
+  background-color: #dfdfdf; }

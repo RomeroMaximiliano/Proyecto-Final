@@ -1,0 +1,47 @@
+.Quienes_Somos {
+    .Banner img 
+    {height: 350px;
+    
+    }
+    .Nosotros {
+        p{
+            width: 100%;
+            margin-bottom: 20px;}
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+    @media screen and (max-width: 1200px){
+        .Nosotros{
+            flex-direction: column;
+            align-items: center;
+        
+        }
+            
+        .Nosotros p{
+            width: 100%;
+            margin-bottom: 20px;
+        
+        }
+        
+        .ComoTrabajamos{
+            flex-direction: column;
+            align-items: center;
+        
+        }
+            
+        .ComoTrabajamos p{
+            width: 100%;
+        order: 1;}
+        
+        .ComoTrabajamos IMG{
+            order: 2;
+            margin-top: 20px;
+        
+        }
+        
+    }
+        
+
+}

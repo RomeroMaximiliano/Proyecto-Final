@@ -1,0 +1,74 @@
+main {
+
+    .Main_Section_img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto auto auto;
+        grid-template-areas:     "Ofertas Notebook Notebook"
+                                 "Ofertas Notebook Notebook"
+                                 "Ofertas Horario atencion";
+        padding: 5% 8%; 
+        gap: 3%;
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+    }
+
+    .Ofertas{
+    grid-area: Ofertas;
+
+    }
+
+    .Notebook{
+    grid-area: Notebook;
+
+    }
+
+    .Horario{
+    grid-area: Horario;
+
+    }
+
+    .Attention{
+    grid-area: Atencion;
+
+    }
+
+    .Carrousel_banner{
+        width: 80%;
+    
+    }
+    .Carrousel_Deskop{
+        width: 75%;
+    
+    }
+    
+    .Carrousel_Mobile{
+        width: 62%;
+    
+    }
+    
+    .Carrousel_inner{
+        background: #D0D0D0;
+        border-radius: 5px;
+        .Cards-Wrap{
+            display: flex;
+            .card{
+                background-color:rgb(186, 185, 185);
+                margin: 5px;
+                flex-direction: column;
+                text-align: center;
+                .card-body p{
+                    font-size: 20px;
+                    line-height: 41px;
+                
+                }
+
+            }
+        
+        }
+    }
+
+}

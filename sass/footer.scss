@@ -1,0 +1,36 @@
+footer {
+    background-color: rgba(217,217,217,1);
+    i {
+        color:rgba(1,89,88,1);
+    
+    }
+    p{
+        margin: 0;
+        padding: 2px;
+    
+    }
+    .Cont_Footer{
+        border-bottom: 2px solid rgba(2,53,53,1);
+        padding: 10px 0px;
+        a{
+            text-decoration: none;
+        
+        }
+        i{
+            border-bottom: none;
+        
+        }
+    }
+    .Copy{
+        color: white;
+        bottom: 5px;
+    
+    }
+    @media screen and (min-width:768px) {
+        .Cont_Footer {
+        border-bottom: none;
+        padding: 50px;
+    
+        }
+    }
+}

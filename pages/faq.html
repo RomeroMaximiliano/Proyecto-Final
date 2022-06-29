@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>PcGamer</title>
+</head>
+<body>
+
+<nav class="container-fluid">
+    <div class="Navreponsive d-flex justify-content-between align-items-center d-md-none">
+        <div class="nav_responsive--logo">
+            <a href="../index.html"><img src="../IMG/Pc.ico" alt="Logo"></a>
+        </div>
+        <div class="input_responsive">
+            <input type="search" placeholder="Buscar">
+            <i class="fa fa-search btn " aria-hidden="true"></i>
+        </div>
+        <div class="nav_redirects">
+            <a href="/pages/myaccount.html"><i class="fa-solid fa-user fa-2x"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+        </div>
+    </div>
+
+    <div class="row align-items-center d-none d-md-flex header">
+        <div class="col-2">
+            <a href="../index.html" ><img src="../IMG/Pc.ico" alt="Logo"></a>
+        </div>
+        <div class="col-8 SearchBar d-flex justify-content-center">
+            <input type="search" placeholder="Buscar">
+        </div>
+        <div class="redirects col-2 d-flex justify-content-end ">
+            <a href="./myaccount.html"><i class="fa-solid fa-user "></i><span class="d-none d-xl-inline">Mi Cuenta</span></a>
+            <a class="mx-3" href=""><i class="fa-solid fa-cart-shopping "></i><span class="d-none d-xl-inline">Carrito</span></a>
+        </div>
+    </div>
+
+    <div class="row align-items-center d-none d-md-flex nav">
+        <div class="col-2 dropdown position-relative">           
+            <svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+            <p class="d-none d-xl-inline m-0">Por Categorias</p>
+        </div>
+        <div class="col-8 list">
+            <ul class="d-flex justify-content-center p-0 mt-3 List" >
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Arma tu PC</a></li>
+                <li><a href="#">Arma tu Combo</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+            </ul>
+</nav>
+
+
+<!------------------------------------Acordeon--------------------------------------------------->
+    
+
+<main class="FAQ">
+    <img src="../IMG/logitech.jpg" alt="Banner" style="height: 300px; width:100%; object-fit:cover;">
+    <h1 class="text-center mt-5">Preguntas Frecuentes!</h1>
+    <div class="p-5" id="accordion">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Formas de pago
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                    </div>
+                </div>
+            </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Mercago Pago
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Envios
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    Facturacion
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                    Garantias
+                    </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                    Canjes Y Promociones
+                    </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                    Realizar un Pedido
+                    </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                        </div>
+                    </div>
+                </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                        Precio
+                        </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi doloribus sint ea numquam quas, velit fugit asperiores quod nobis non tempora voluptatibus quia aliquam, ut alias maiores, ab aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias consequatur possimus excepturi consequuntur, cum sequi officia, ipsam eligendi quaerat ipsa, laboriosam totam quibusdam odit nisi quia ut officiis aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed voluptas temporibus ratione, corporis pariatur mollitia, voluptates ut amet, saepe quis deserunt. Minima optio dolore dignissimos ex laborum, eveniet nam.
+                            </div>
+                        </div>
+                    </div>
+        </div>
+</main>
+
+
+<footer>
+    <div class=" flex-md-row justify-content-md-between text-md-start position-relative text-center d-flex flex-column ">
+        <div class="Cont_Footer d-flex flex-column">
+            <h6>INFORMACION</h6>
+            <a href="../index.html">Inicio</a>
+            <a href="./whoiam.html">¿Quienes somos?</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./pp.html"">Politicas de privacidad</a>
+            <a href="#">Boton de arrepentimiento</a>
+        </div>
+        <div class="Cont_Footer">
+            <h6>CONTACTO</h6>
+            <p>Telefono: 0110 - 1100</p>
+            <p>Whatsapp: 11 0110 - 1100</p>
+            <p>Email: ventas@contacto.com.ar</p>
+            <p>rma.contacto@hotmail.com.ar</p>  
+            <p>Horario de atencion  Lunes a viernes:08:00 a 20:30hs
+            <p>y domingo: 10:00 a 19:00hs</p>
+        </div>
+        <div class="Cont_Footer Cont_Footer--I">
+            <h6>NUESTRAS REDES</h6>
+            <div class="d-flex flex-column mb-3 align-items-center">
+                <i class="fa-brands fa-instagram fa-3x"></i>
+                <i class="fa-brands fa-facebook fa-3x mt-3 mb-3"></i>
+                <i class="fa-brands fa-twitter fa-3x"></i>
+            </div>
+        </div>
+    </div>
+        <p style="color: white;">&copy; Maximiliano Romero 2022 - Todos los derechos reservados - Hosting Web</p>
+</footer>
+      
+    <script src="https://kit.fontawesome.com/ea6d8211f0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
