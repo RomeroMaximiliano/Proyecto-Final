@@ -1,0 +1,43 @@
+aside{height: 100%;}
+.container-sidebar{
+    background-color: rgba(1,89,88,1);
+    width: 260px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 81px;
+    overflow-y: hidden;
+    margin-top: 59px;
+    transition: 5s ease;
+    img{padding-right: 10px;
+        width: 30px;
+        color: white;
+    }
+    hr{
+        color: white;
+    }
+    .sidebar-item{
+        color: white;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 15px 20px;
+        cursor: pointer;
+    }
+    span{
+        font-size: 1em;
+    }
+    
+}
+
+.sidebar-item:hover{
+background-color: aqua;
+}
+
+aside:hover{
+    overflow-y: auto;
+
+}
+.desplegar{
+    transform: translateX(-100%);
+}
