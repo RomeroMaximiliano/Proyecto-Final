@@ -1,4 +1,11 @@
-main {
+@import"../utilities/extend";
+@import"../utilities/mapas";
+@import"../utilities/mixing";
+@import"../utilities/variables";
+
+main{
+    background-color: $main;
+}
 
     .Main_Section_img{
         display: grid;
@@ -70,5 +77,3 @@ main {
         
         }
     }
-
-}

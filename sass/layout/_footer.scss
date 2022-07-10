@@ -1,7 +1,12 @@
+@import"../utilities/extend";
+@import"../utilities/mapas";
+@import"../utilities/mixing";
+@import"../utilities/variables";
+
 footer {
-    background-color: rgba(217,217,217,1);
+    background-color: $footer;
     i {
-        color:rgba(1,89,88,1);
+        color: $primariooscuro;
     
     }
     p{
@@ -10,7 +15,7 @@ footer {
     
     }
     .Cont_Footer{
-        border-bottom: 2px solid rgba(2,53,53,1);
+        border-bottom: 2px solid $primariooscuro;
         padding: 10px 0px;
         a{
             text-decoration: none;

@@ -1,0 +1,28 @@
+@import"../utilities/extend";
+@import"../utilities/mapas";
+@import"../utilities/mixing";
+@import"../utilities/variables";
+
+.canvas_btn{
+    background-color: $primarioclaro;
+}
+
+.offcanvas-header{
+    background-color: $primarioclaro;
+    h5{
+        margin-left: 120px;
+        color: white;
+    }
+}
+
+.offcanvas-body{background-color: $primarioclaro;
+    .sidebar-item{
+        img{
+            margin: 10px;
+        }
+    }
+    span{
+        font-size: 20px;
+        color: white;
+    }
+}

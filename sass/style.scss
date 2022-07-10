@@ -1,12 +1,17 @@
-@import "sidebar.scss";
-@import "nav.scss";
-@import "footer.scss";
-@import "reset.scss";
-@import "main-index.scss";
-@import "micuenta.scss";
-@import "whoiam.scss";
-@import "registrarse.scss";
+@import "./componentes/canvas.scss";
+@import "./layout/footer.scss";
+@import "./layout/main-index.scss";
+@import "./layout/micuenta.scss";
+@import "./layout/nav.scss";
+@import "./layout/registrarse.scss";
+@import "./layout/reset.scss";
+@import "./layout/whoiam.scss";
+@import "./utilities/extend.scss";
+@import "./utilities/mapas.scss";
+@import "./utilities/mixing.scss";
+@import "./utilities/variables.scss";
+@import "./layout/pp.scss";
 
 main{
-    background-color: rgba(223,223,223,1)
+    background-color: $main;
 }

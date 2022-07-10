@@ -1,0 +1,9 @@
+@import"../utilities/extend";
+@import"../utilities/mapas";
+@import"../utilities/mixing";
+@import"../utilities/variables";
+@import"../layout/whoiam";
+
+.PP_contenido{
+    @extend .texto;
+}

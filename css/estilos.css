@@ -1,40 +1,105 @@
-aside {
-  height: 100%; }
+.canvas_btn {
+  background-color: #015958; }
 
-.container-sidebar {
-  background-color: #015958;
-  width: 260px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  top: 81px;
-  overflow-y: hidden;
-  margin-top: 59px;
-  transition: 5s ease; }
-  .container-sidebar img {
-    padding-right: 10px;
-    width: 30px;
+.offcanvas-header {
+  background-color: #015958; }
+  .offcanvas-header h5 {
+    margin-left: 120px;
     color: white; }
-  .container-sidebar hr {
+
+.offcanvas-body {
+  background-color: #015958; }
+  .offcanvas-body .sidebar-item img {
+    margin: 10px; }
+  .offcanvas-body span {
+    font-size: 20px;
     color: white; }
-  .container-sidebar .sidebar-item {
+
+footer {
+  background-color: #d9d9d9; }
+  footer i {
+    color: #015958; }
+  footer p {
+    margin: 0;
+    padding: 2px; }
+  footer .Cont_Footer {
+    border-bottom: 2px solid #015958;
+    padding: 10px 0px; }
+    footer .Cont_Footer a {
+      text-decoration: none; }
+    footer .Cont_Footer i {
+      border-bottom: none; }
+  footer .Copy {
     color: white;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 15px 20px;
-    cursor: pointer; }
-  .container-sidebar span {
-    font-size: 1em; }
+    bottom: 5px; }
+  @media screen and (min-width: 768px) {
+    footer .Cont_Footer {
+      border-bottom: none;
+      padding: 50px; } }
 
-.sidebar-item:hover {
-  background-color: aqua; }
+main {
+  background-color: #dfdfdf; }
 
-aside:hover {
-  overflow-y: auto; }
+.Main_Section_img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "Ofertas Notebook Notebook" "Ofertas Notebook Notebook" "Ofertas Horario atencion";
+  padding: 5% 8%;
+  gap: 3%; }
+  .Main_Section_img img {
+    height: 100%;
+    width: 100%; }
 
-.desplegar {
-  transform: translateX(-100%); }
+.Ofertas {
+  grid-area: Ofertas; }
+
+.Notebook {
+  grid-area: Notebook; }
+
+.Horario {
+  grid-area: Horario; }
+
+.Attention {
+  grid-area: Atencion; }
+
+.Carrousel_banner {
+  width: 80%; }
+
+.Carrousel_Deskop {
+  width: 75%; }
+
+.Carrousel_Mobile {
+  width: 62%; }
+
+.Carrousel_inner {
+  background: #D0D0D0;
+  border-radius: 5px; }
+  .Carrousel_inner .Cards-Wrap {
+    display: flex; }
+    .Carrousel_inner .Cards-Wrap .card {
+      background-color: #bab9b9;
+      margin: 5px;
+      flex-direction: column;
+      text-align: center; }
+      .Carrousel_inner .Cards-Wrap .card .card-body p {
+        font-size: 20px;
+        line-height: 41px; }
+
+.Cuenta {
+  background: #D9D9D9;
+  box-shadow: -2px 3px 12px 9px rgba(0, 0, 0, 0.25);
+  width: 100%; }
+  .Cuenta button {
+    width: 50%;
+    height: 60px;
+    background-color: #015958; }
+  .Cuenta a {
+    text-decoration: none; }
+  .Cuenta li {
+    list-style-type: none; }
+    .Cuenta li i {
+      color: #015958; }
 
 nav {
   background: linear-gradient(0deg, #015958 0%, #023535 65%); }
@@ -98,122 +163,6 @@ nav {
       color: white;
       margin: 5px; }
 
-footer {
-  background-color: #d9d9d9; }
-  footer i {
-    color: #015958; }
-  footer p {
-    margin: 0;
-    padding: 2px; }
-  footer .Cont_Footer {
-    border-bottom: 2px solid #023535;
-    padding: 10px 0px; }
-    footer .Cont_Footer a {
-      text-decoration: none; }
-    footer .Cont_Footer i {
-      border-bottom: none; }
-  footer .Copy {
-    color: white;
-    bottom: 5px; }
-  @media screen and (min-width: 768px) {
-    footer .Cont_Footer {
-      border-bottom: none;
-      padding: 50px; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-main .Main_Section_img {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "Ofertas Notebook Notebook" "Ofertas Notebook Notebook" "Ofertas Horario atencion";
-  padding: 5% 8%;
-  gap: 3%; }
-  main .Main_Section_img img {
-    height: 100%;
-    width: 100%; }
-
-main .Ofertas {
-  grid-area: Ofertas; }
-
-main .Notebook {
-  grid-area: Notebook; }
-
-main .Horario {
-  grid-area: Horario; }
-
-main .Attention {
-  grid-area: Atencion; }
-
-main .Carrousel_banner {
-  width: 80%; }
-
-main .Carrousel_Deskop {
-  width: 75%; }
-
-main .Carrousel_Mobile {
-  width: 62%; }
-
-main .Carrousel_inner {
-  background: #D0D0D0;
-  border-radius: 5px; }
-  main .Carrousel_inner .Cards-Wrap {
-    display: flex; }
-    main .Carrousel_inner .Cards-Wrap .card {
-      background-color: #bab9b9;
-      margin: 5px;
-      flex-direction: column;
-      text-align: center; }
-      main .Carrousel_inner .Cards-Wrap .card .card-body p {
-        font-size: 20px;
-        line-height: 41px; }
-
-.Cuenta {
-  background: #D9D9D9;
-  box-shadow: -2px 3px 12px 9px rgba(0, 0, 0, 0.25);
-  width: 100%; }
-  .Cuenta button {
-    width: 50%;
-    height: 60px;
-    background-color: #015958; }
-  .Cuenta a {
-    text-decoration: none; }
-  .Cuenta li {
-    list-style-type: none; }
-    .Cuenta li i {
-      color: #015958; }
-
-.Quienes_Somos .Banner img {
-  height: 350px; }
-
-.Quienes_Somos .Nosotros p {
-  width: 100%;
-  margin-bottom: 20px; }
-
-.Quienes_Somos .Nosotros img {
-  width: 400px;
-  height: 400px; }
-
-@media screen and (max-width: 1200px) {
-  .Quienes_Somos .Nosotros {
-    flex-direction: column;
-    align-items: center; }
-  .Quienes_Somos .Nosotros p {
-    width: 100%;
-    margin-bottom: 20px; }
-  .Quienes_Somos .ComoTrabajamos {
-    flex-direction: column;
-    align-items: center; }
-  .Quienes_Somos .ComoTrabajamos p {
-    width: 100%;
-    order: 1; }
-  .Quienes_Somos .ComoTrabajamos IMG {
-    order: 2;
-    margin-top: 20px; } }
-
 .Register {
   background: #D9D9D9;
   box-shadow: -2px 3px 12px 9px rgba(0, 0, 0, 0.25);
@@ -228,6 +177,71 @@ main .Carrousel_inner {
     list-style-type: none; }
     .Register ul i {
       color: #023535; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.Quienes_Somos .Banner img {
+  height: 350px; }
+
+.Quienes_Somos .Nosotros p {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.Quienes_Somos .Nosotros img {
+  width: 400px;
+  height: 400px; }
+
+@media screen and (max-width: 1200px) {
+  .Quienes_Somos .Nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
+    width: 100%;
+    margin-bottom: 20px; }
+  .Quienes_Somos .ComoTrabajamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .Quienes_Somos .ComoTrabajamos .texto, .Quienes_Somos .ComoTrabajamos .PP_contenido {
+    width: 100%;
+    order: 1; }
+  .Quienes_Somos .ComoTrabajamos IMG {
+    order: 2;
+    margin-top: 20px; } }
+
+.Quienes_Somos .Banner img {
+  height: 350px; }
+
+.Quienes_Somos .Nosotros p {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.Quienes_Somos .Nosotros img {
+  width: 400px;
+  height: 400px; }
+
+@media screen and (max-width: 1200px) {
+  .Quienes_Somos .Nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
+    width: 100%;
+    margin-bottom: 20px; }
+  .Quienes_Somos .ComoTrabajamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .Quienes_Somos .ComoTrabajamos .texto, .Quienes_Somos .ComoTrabajamos .PP_contenido {
+    width: 100%;
+    order: 1; }
+  .Quienes_Somos .ComoTrabajamos IMG {
+    order: 2;
+    margin-top: 20px; } }
 
 main {
   background-color: #dfdfdf; }

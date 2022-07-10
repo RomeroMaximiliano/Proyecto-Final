@@ -1,3 +1,8 @@
+@import"../utilities/extend";
+@import"../utilities/mapas";
+@import"../utilities/mixing";
+@import"../utilities/variables";
+
 .Quienes_Somos {
     .Banner img 
     {height: 350px;
@@ -14,24 +19,22 @@
     }
     @media screen and (max-width: 1200px){
         .Nosotros{
-            flex-direction: column;
-            align-items: center;
+            @include flex(flex,column,center);
         
         }
             
-        .Nosotros p{
+        .Nosotros .texto{
             width: 100%;
             margin-bottom: 20px;
         
         }
         
         .ComoTrabajamos{
-            flex-direction: column;
-            align-items: center;
+            @include flex(flex,column,center);
         
         }
             
-        .ComoTrabajamos p{
+        .ComoTrabajamos .texto{
             width: 100%;
         order: 1;}
         

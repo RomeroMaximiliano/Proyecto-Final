@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>PcGamer</title>
+    <title>Quienes Somos</title>
 </head>
 <body>
 
 <nav class="container-fluid">
     <div class="Navreponsive d-flex justify-content-between align-items-center d-md-none">
         <div class="nav_responsive--logo">
-            <a href="../index.html"><img src="../img/Pc.ico" alt="Logo"></a>
+        <a href="../index.html"><img src="../img/Pc.ico" alt="Logo"></a>
         </div>
         <div class="input_responsive">
-            <input type="search" placeholder="Buscar">
-            <i class="fa fa-search btn " aria-hidden="true"></i>
+        <input type="search" placeholder="Buscar">
+        <i class="fa fa-search btn " aria-hidden="true"></i>
         </div>
         <div class="nav_redirects">
-            <a href="/pages/myaccount.html"><i class="fa-solid fa-user fa-2x"></i></a>
+            <a href="./pages/myaccount.html"><i class="fa-solid fa-user fa-2x"></i></a>
             <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
         </div>
     </div>
@@ -38,18 +39,67 @@
         </div>
     </div>
 
-    <div class="row align-items-center d-none d-md-flex nav">
-        <div class="col-2 dropdown position-relative">           
-            <svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
-            <p class="d-none d-xl-inline m-0">Por Categorias</p>
+<div class="row align-items-center d-none d-md-flex nav">
+        <div class="col-2 canvas">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+            <p class="d-none d-xl-inline m-0">Por Categorias</p></button>
+        
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Categorias</h5>
+            <button type="button canvas_btn" class="btn-close text-reset canvas_btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-pc-computer-xnimrodx-lineal-xnimrodx.png"/>
+                <span>ARMA TU PC</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/carbon-copy/100/000000/motherboard.png"/>
+                <span>ARMA TU COMBO</span>
+            </div>
+            <hr class="hrblanco">
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-laptop-computer-xnimrodx-lineal-xnimrodx.png"/>
+                <span>Notebooks</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-chip-computer-xnimrodx-lineal-xnimrodx.png"/>
+                <span>Componentes de PC</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-joystick-stay-home-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
+                <span>Perifericos</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/wired/64/000000/playstation-4.png"/>
+                <span>Consolas</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/ios/50/000000/multiple-smartphones.png"/>
+                <span>Smartphones</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-prettycons-lineal-prettycons/49/000000/external-ethernet-connections-prettycons-lineal-prettycons.png"/>
+                <span>Conectividad</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/000000/external-harddisk-gadget-photo3ideastudio-lineal-photo3ideastudio.png"/>
+                <span>Almacenamiento</span>
+            </div>
+            </div>
         </div>
+        </div>
+
         <div class="col-8 list">
-            <ul class="d-flex justify-content-center p-0 mt-3 List" >
+            <ul class="d-flex justify-content-center p-0 mt-3 List"">
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Arma tu PC</a></li>
                 <li><a href="#">Arma tu Combo</a></li>
-                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="faq.html">FAQ</a></li>
             </ul>
+        </div>
+    </div>
 </nav>
 
 
@@ -60,12 +110,12 @@
         </div>
             <h1 class="text-center p-4"><b>Nuestra Empresa</b></h1>
         <div class="Nosotros p-3 d-flex">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptatesLorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci bore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.met consectetur adipisicing elit. Repellat ex beatae nesciunt quae, aut fuga aliquid? Facilis quibusdam nostrum nisi ipsa ad debitis. Nesciunt ut reiciendis repellendus totam dolorum neque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime sapiente voluptate odio nisi ex. Deserunt, blanditiis soluta! Non beatae optio libero hic consequatur veniam dolores aliquam ipsam eveniet soluta.voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum. hic! Ullam, dolorum.</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptatesLorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci bore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.met consectetur adipisicing elit. Repellat ex beatae nesciunt quae, aut fuga aliquid? Facilis quibusdam nostrum nisi ipsa ad debitis. Nesciunt ut reiciendis repellendus totam dolorum neque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime sapiente voluptate odio nisi ex. Deserunt, blanditiis soluta! Non beatae optio libero hic consequatur veniam dolores aliquam ipsam eveniet soluta.voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum. hic! Ullam, dolorum.</p>
             <img class="PCQS ps-3 m-4" src="../img/Nosotros.webp" alt="Nosotros">
         </div>
         <div class="Nosotros p-3 d-flex">
             <img class="PCQS ps-3 m-4" src="../img/gamer.webp" alt="Nosotros">   
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptatesLorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci bore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.met consectetur adipisicing elit. Repellat ex beatae nesciunt quae, aut fuga aliquid? Facilis quibusdam nostrum nisi ipsa ad debitis. Nesciunt ut reiciendis repellendus totam dolorum neque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime sapiente voluptate odio nisi ex. Deserunt, blanditiis soluta! Non beatae optio libero hic consequatur veniam dolores aliquam ipsam eveniet soluta.voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum. hic! Ullam, dolorum.</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptatesLorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci bore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.met consectetur adipisicing elit. Repellat ex beatae nesciunt quae, aut fuga aliquid? Facilis quibusdam nostrum nisi ipsa ad debitis. Nesciunt ut reiciendis repellendus totam dolorum neque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime sapiente voluptate odio nisi ex. Deserunt, blanditiis soluta! Non beatae optio libero hic consequatur veniam dolores aliquam ipsam eveniet soluta.voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora velit accusantium modi delectus, quos, corrupti asperiores quibusdam maiores repellat quia explicabo non ducimus dignissimos ut! Libero tenetur culpa ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet eius, cum natus sit voluptatem accusamus, dignissimos quidem optio dicta minus modi et commodi labore adipisci voluptates hic! Ullam, dolorum. hic! Ullam, dolorum.</p>
         </div>    
     </div>
 </main>

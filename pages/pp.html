@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>PcGamer</title>
+    <title>Politicas de privacidad</title>
 </head>
 <body>
 
 <nav class="container-fluid">
     <div class="Navreponsive d-flex justify-content-between align-items-center d-md-none">
         <div class="nav_responsive--logo">
-            <a href="../index.html"><img src="../img/Pc.ico" alt="Logo"></a>
+        <a href="../index.html"><img src="../img/Pc.ico" alt="Logo"></a>
         </div>
         <div class="input_responsive">
-            <input type="search" placeholder="Buscar">
-            <i class="fa fa-search btn " aria-hidden="true"></i>
+        <input type="search" placeholder="Buscar">
+        <i class="fa fa-search btn " aria-hidden="true"></i>
         </div>
         <div class="nav_redirects">
-            <a href="/pages/myaccount.html"><i class="fa-solid fa-user fa-2x"></i></a>
+            <a href="./pages/myaccount.html"><i class="fa-solid fa-user fa-2x"></i></a>
             <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
         </div>
     </div>
@@ -38,35 +39,84 @@
         </div>
     </div>
 
-    <div class="row align-items-center d-none d-md-flex nav">
-        <div class="col-2 dropdown position-relative">           
-            <svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
-            <p class="d-none d-xl-inline m-0">Por Categorias</p>
+<div class="row align-items-center d-none d-md-flex nav">
+        <div class="col-2 canvas">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+            <p class="d-none d-xl-inline m-0">Por Categorias</p></button>
+        
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Categorias</h5>
+            <button type="button canvas_btn" class="btn-close text-reset canvas_btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-pc-computer-xnimrodx-lineal-xnimrodx.png"/>
+                <span>ARMA TU PC</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/carbon-copy/100/000000/motherboard.png"/>
+                <span>ARMA TU COMBO</span>
+            </div>
+            <hr class="hrblanco">
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-laptop-computer-xnimrodx-lineal-xnimrodx.png"/>
+                <span>Notebooks</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-chip-computer-xnimrodx-lineal-xnimrodx.png"/>
+                <span>Componentes de PC</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-joystick-stay-home-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
+                <span>Perifericos</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/wired/64/000000/playstation-4.png"/>
+                <span>Consolas</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/ios/50/000000/multiple-smartphones.png"/>
+                <span>Smartphones</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-prettycons-lineal-prettycons/49/000000/external-ethernet-connections-prettycons-lineal-prettycons.png"/>
+                <span>Conectividad</span>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/000000/external-harddisk-gadget-photo3ideastudio-lineal-photo3ideastudio.png"/>
+                <span>Almacenamiento</span>
+            </div>
+            </div>
         </div>
+        </div>
+
         <div class="col-8 list">
-            <ul class="d-flex justify-content-center p-0 mt-3 List" >
+            <ul class="d-flex justify-content-center p-0 mt-3 List"">
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Arma tu PC</a></li>
                 <li><a href="#">Arma tu Combo</a></li>
-                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="faq.html">FAQ</a></li>
             </ul>
+        </div>
+    </div>
 </nav>
 
 
 <main class="content-fluid p-4">
     <h1 class="text-center pb-2">Politicas de privacidad</h1>
     <div class="PP_contenido">
-    <p> ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus sunt eius veniam amet numquam suscipit, quos tempora magni eum iste beatae repellat aspernaturLorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae! ipsa animi incidunt nam ab ratione!</p>
+    <p class="texto"> ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus sunt eius veniam amet numquam suscipit, quos tempora magni eum iste beatae repellat aspernaturLorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae! ipsa animi incidunt nam ab ratione!</p>
     <h4>Informacion que es recolectada</h4>
-    <p> ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
+    <p class="texto"> ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
     <h4>Cookies</h4>
-    <p> ipsum dolor sit amet consectetur adipisicing elit. Ea porro atque consequatur itaque et excepturi incidunt odio distinctio nisi expedita rem natus, minus eaqueLorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae! ut vitae! Mollitia nobis eius sed! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vel soluta laborum, vitae quasi dolorum pariatur et laboriosam nemo commodi eveniet quam, harum ad ratione fuga rem omnis perferendis molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
+    <p class="texto"> ipsum dolor sit amet consectetur adipisicing elit. Ea porro atque consequatur itaque et excepturi incidunt odio distinctio nisi expedita rem natus, minus eaqueLorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae! ut vitae! Mollitia nobis eius sed! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vel soluta laborum, vitae quasi dolorum pariatur et laboriosam nemo commodi eveniet quam, harum ad ratione fuga rem omnis perferendis molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
     <h4>Enlaces a terceros</h4>
-    <p> ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore id eos odit, quam mollitia perferendis quasi error, voluptates alias fugiat animi rem nulla Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!recusandae possimus, quidem asperiores sit suscipit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
+    <p class="texto"> ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore id eos odit, quam mollitia perferendis quasi error, voluptates alias fugiat animi rem nulla Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!recusandae possimus, quidem asperiores sit suscipit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
     <h4>Control de su informacion</h4>
-    <p> ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
+    <p class="texto"> ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
     <h4>Solicitud de eliminacion</h4>
-    <p> ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!magnam tempore quas voluptates recusandae! adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
+    <p class="texto"> ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!magnam tempore quas voluptates recusandae! adipisicing elit. Corporis, molestiae at debitis magnam illum itaque, dolor obcaecati consequatur possimus, libero numquam rerum cum quo ab tenetur dicta amet hic ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque assumenda corporis reiciendis ex doloremque, ea eius nulla fugit iusto quidem magni officia itaque voluptatibus, magnam tempore quas voluptates recusandae!</p>
     </div>
 </main>
 

@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index">
+    <meta name="keywords" content="PcGamer, ARMA TU PC, ARMA TU COMBO ,Placas de video,perifericos,">
     <link rel="stylesheet" href="./css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>PcGamer</title>
 </head>
 <body>
   
-<nav class="container-fluid">
+  <nav class="container-fluid">
     <div class="Navreponsive d-flex justify-content-between align-items-center d-md-none">
       <div class="nav_responsive--logo">
         <a href="./Index.HTML"><img src="./img/Pc.ico" alt="Logo"></a>
@@ -38,11 +40,58 @@
       </div>
   </div>
 
-  <div class="row align-items-center d-none d-md-flex nav">
-      <div id="open-close" class="col-2 dropdown open-close position-relative">           
-          <span><svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></span>
-          <p class="d-none d-xl-inline m-0">Por Categorias</p>
+<div class="row align-items-center d-none d-md-flex nav">
+      <div class="col-2 canvas">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><svg style="color:white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+          <p class="d-none d-xl-inline m-0">Por Categorias</p></button>
+        
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Categorias</h5>
+            <button type="button canvas_btn" class="btn-close text-reset canvas_btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
+          <div class="offcanvas-body">
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-pc-computer-xnimrodx-lineal-xnimrodx.png"/>
+              <span>ARMA TU PC</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/carbon-copy/100/000000/motherboard.png"/>
+              <span>ARMA TU COMBO</span>
+            </div>
+            <hr class="hrblanco">
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-laptop-computer-xnimrodx-lineal-xnimrodx.png"/>
+              <span>Notebooks</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-chip-computer-xnimrodx-lineal-xnimrodx.png"/>
+              <span>Componentes de PC</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-joystick-stay-home-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
+              <span>Perifericos</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/wired/64/000000/playstation-4.png"/>
+              <span>Consolas</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/ios/50/000000/multiple-smartphones.png"/>
+              <span>Smartphones</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/external-prettycons-lineal-prettycons/49/000000/external-ethernet-connections-prettycons-lineal-prettycons.png"/>
+              <span>Conectividad</span>
+            </div>
+            <div class="sidebar-item">
+              <img src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/000000/external-harddisk-gadget-photo3ideastudio-lineal-photo3ideastudio.png"/>
+              <span>Almacenamiento</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col-8 list">
           <ul class="d-flex justify-content-center p-0 mt-3 List"">
               <li><a href="#">Productos</a></li>
@@ -50,7 +99,9 @@
               <li><a href="#">Arma tu Combo</a></li>
               <li><a href="./pages/faq.html">FAQ</a></li>
           </ul>
-</nav>
+      </div>
+  </div>
+  </nav>
 
 <main class="d-flex flex-column align-items-center">
     <div class="main_Index container-fluid">
@@ -85,49 +136,6 @@
       </div>
     </div>
 </div>
-  <aside id="aside" class="sidebar-menu-web sidebar-menu-web-active">
-    <div id="aside" class="container-sidebar">
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-pc-computer-xnimrodx-lineal-xnimrodx.png"/>
-        <span>ARMA TU PC</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/carbon-copy/100/000000/motherboard.png"/>
-        <span>ARMA TU COMBO</span>
-      </div>
-      <hr class="hrblanco">
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-laptop-computer-xnimrodx-lineal-xnimrodx.png"/>
-        <span>Notebooks</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-chip-computer-xnimrodx-lineal-xnimrodx.png"/>
-        <span>Componentes de PC</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-joystick-stay-home-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
-        <span>Perifericos</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/wired/64/000000/playstation-4.png"/>
-        <span>Consolas</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/ios/50/000000/multiple-smartphones.png"/>
-        <span>Smartphones</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/external-prettycons-lineal-prettycons/49/000000/external-ethernet-connections-prettycons-lineal-prettycons.png"/>
-        <span>Conectividad</span>
-      </div>
-      <div class="sidebar-item">
-        <img src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/000000/external-harddisk-gadget-photo3ideastudio-lineal-photo3ideastudio.png"/>
-        <span>Almacenamiento</span>
-      </div>
-
-    </div>
-
-</aside>
 
 <div id="carouselExampleControls" class="carousel slide carousel-dark mt-5 d-none d-lg-inline Carrousel_Deskop" data-bs-ride="carousel">
     <h2>Mas Vendidos</h2>
@@ -887,6 +895,6 @@
     
     <script src="https://kit.fontawesome.com/ea6d8211f0.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="./script/script.js"></script>
+
 </body>
 </html>
