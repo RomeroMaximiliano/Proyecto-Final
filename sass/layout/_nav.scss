@@ -5,6 +5,11 @@
 
 nav {
     background: $gradient;
+
+    .btn-primary{
+        border: none;
+        background-color: transparent;
+    }
     
     img{
         width: 60px;
