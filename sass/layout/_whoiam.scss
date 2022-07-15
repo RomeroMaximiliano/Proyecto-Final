@@ -3,9 +3,15 @@
 @import"../utilities/mixing";
 @import"../utilities/variables";
 
+.Whoiam{display: flex;
+    justify-content: center;
+}
+
 .Quienes_Somos {
-    .Banner img 
-    {height: 350px;
+    width: 60%;
+    .Banner img {
+        height: 350px;
+        width: 100%;
     
     }
     .Nosotros {
@@ -13,11 +19,15 @@
             width: 100%;
             margin-bottom: 20px;}
         img{
-            width: 400px;
-            height: 400px;
+            width: 200px;
+            height: 200px;
         }
     }
     @media screen and (max-width: 1200px){
+        .Quienes_Somos{
+            width: 100%;
+        }
+
         .Nosotros{
             @include flex(flex,column,center);
         

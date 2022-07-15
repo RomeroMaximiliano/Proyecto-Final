@@ -44,7 +44,9 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
-  grid-template-areas: "Ofertas Notebook Notebook" "Ofertas Notebook Notebook" "Ofertas Horario atencion";
+  grid-template-areas: "Ofertas Notebook Notebook"
+ "Ofertas Notebook Notebook"
+ "Ofertas Horario atencion";
   padding: 5% 8%;
   gap: 3%; }
   .Main_Section_img img {
@@ -183,65 +185,77 @@ nav {
   padding: 0;
   box-sizing: border-box; }
 
-.Quienes_Somos .Banner img {
-  height: 350px; }
+.Whoiam {
+  display: flex;
+  justify-content: center; }
 
-.Quienes_Somos .Nosotros p {
-  width: 100%;
-  margin-bottom: 20px; }
-
-.Quienes_Somos .Nosotros img {
-  width: 400px;
-  height: 400px; }
-
-@media screen and (max-width: 1200px) {
-  .Quienes_Somos .Nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
+.Quienes_Somos {
+  width: 60%; }
+  .Quienes_Somos .Banner img {
+    height: 350px;
+    width: 100%; }
+  .Quienes_Somos .Nosotros p {
     width: 100%;
     margin-bottom: 20px; }
-  .Quienes_Somos .ComoTrabajamos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .Quienes_Somos .ComoTrabajamos .texto, .Quienes_Somos .ComoTrabajamos .PP_contenido {
-    width: 100%;
-    order: 1; }
-  .Quienes_Somos .ComoTrabajamos IMG {
-    order: 2;
-    margin-top: 20px; } }
+  .Quienes_Somos .Nosotros img {
+    width: 200px;
+    height: 200px; }
+  @media screen and (max-width: 1200px) {
+    .Quienes_Somos .Quienes_Somos {
+      width: 100%; }
+    .Quienes_Somos .Nosotros {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
+      width: 100%;
+      margin-bottom: 20px; }
+    .Quienes_Somos .ComoTrabajamos {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .Quienes_Somos .ComoTrabajamos .texto, .Quienes_Somos .ComoTrabajamos .PP_contenido {
+      width: 100%;
+      order: 1; }
+    .Quienes_Somos .ComoTrabajamos IMG {
+      order: 2;
+      margin-top: 20px; } }
 
-.Quienes_Somos .Banner img {
-  height: 350px; }
+.Whoiam {
+  display: flex;
+  justify-content: center; }
 
-.Quienes_Somos .Nosotros p {
-  width: 100%;
-  margin-bottom: 20px; }
-
-.Quienes_Somos .Nosotros img {
-  width: 400px;
-  height: 400px; }
-
-@media screen and (max-width: 1200px) {
-  .Quienes_Somos .Nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
+.Quienes_Somos {
+  width: 60%; }
+  .Quienes_Somos .Banner img {
+    height: 350px;
+    width: 100%; }
+  .Quienes_Somos .Nosotros p {
     width: 100%;
     margin-bottom: 20px; }
-  .Quienes_Somos .ComoTrabajamos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .Quienes_Somos .ComoTrabajamos .texto, .Quienes_Somos .ComoTrabajamos .PP_contenido {
-    width: 100%;
-    order: 1; }
-  .Quienes_Somos .ComoTrabajamos IMG {
-    order: 2;
-    margin-top: 20px; } }
+  .Quienes_Somos .Nosotros img {
+    width: 200px;
+    height: 200px; }
+  @media screen and (max-width: 1200px) {
+    .Quienes_Somos .Quienes_Somos {
+      width: 100%; }
+    .Quienes_Somos .Nosotros {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
+      width: 100%;
+      margin-bottom: 20px; }
+    .Quienes_Somos .ComoTrabajamos {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .Quienes_Somos .ComoTrabajamos .texto, .Quienes_Somos .ComoTrabajamos .PP_contenido {
+      width: 100%;
+      order: 1; }
+    .Quienes_Somos .ComoTrabajamos IMG {
+      order: 2;
+      margin-top: 20px; } }
 
 main {
   background-color: #dfdfdf; }
