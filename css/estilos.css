@@ -40,7 +40,8 @@ footer {
     footer .Cont_Footer {
       width: none;
       border-bottom: none;
-      padding: 50px; } }
+      padding: 50px;
+      height: 290px; } }
 
 main {
   background-color: #dfdfdf; }
@@ -376,6 +377,22 @@ nav {
     .Quienes_Somos .ComoTrabajamos IMG {
       order: 2;
       margin-top: 20px; } }
+
+.main-combo {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 50px 20px;
+  background: #D0D0D0;
+  width: 600px; }
+
+.lista_combo {
+  background-color: #bab9b9;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+.imagenes-combo {
+  width: 70%;
+  align-items: center; }
 
 main {
   background-color: #dfdfdf; }

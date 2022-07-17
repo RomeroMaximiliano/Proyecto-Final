@@ -1,0 +1,23 @@
+@import"../utilities/extend";
+@import"../utilities/mapas";
+@import"../utilities/mixing";
+@import"../utilities/variables";
+
+.main-combo{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px 20px;
+    background: #D0D0D0;
+    width: 600px;
+}
+
+.lista_combo{
+    background-color:rgb(186, 185, 185);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.imagenes-combo{
+    width: 70%;
+    align-items: center;
+}
