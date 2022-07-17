@@ -88,9 +88,9 @@ nav {
         border-radius:map-get($searchbar_input, border-radius ) ;
     
     }
-    
-    .nav p{
-        color: white; 
+    .nav a{
+        text-decoration: none;
+        color: black;
         font-size: 20px;
     
     }
@@ -108,4 +108,9 @@ nav {
         
         }
     }
+
+.nav .sidebar-item:hover{
+    background-color:#024242;
+    border-radius: 5px;
+}
 
