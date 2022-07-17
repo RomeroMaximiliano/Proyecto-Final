@@ -15,6 +15,7 @@ footer {
     
     }
     .Cont_Footer{
+        width: 50%;
         border-bottom: 2px solid $primariooscuro;
         padding: 10px 0px;
         a{
@@ -25,14 +26,19 @@ footer {
             border-bottom: none;
         
         }
+
     }
     .Copy{
         color: white;
         bottom: 5px;
     
     }
+    .Cont_Footer--I{
+        border-bottom: none;
+    }
     @media screen and (min-width:768px) {
         .Cont_Footer {
+        width: none;
         border-bottom: none;
         padding: 50px;
     

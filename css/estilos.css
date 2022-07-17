@@ -23,6 +23,7 @@ footer {
     margin: 0;
     padding: 2px; }
   footer .Cont_Footer {
+    width: 50%;
     border-bottom: 2px solid #015958;
     padding: 10px 0px; }
     footer .Cont_Footer a {
@@ -32,8 +33,11 @@ footer {
   footer .Copy {
     color: white;
     bottom: 5px; }
+  footer .Cont_Footer--I {
+    border-bottom: none; }
   @media screen and (min-width: 768px) {
     footer .Cont_Footer {
+      width: none;
       border-bottom: none;
       padding: 50px; } }
 
@@ -70,7 +74,7 @@ main {
   width: 75%; }
 
 .Carrousel_Mobile {
-  width: 62%; }
+  width: 80%; }
 
 .Carrousel_inner {
   background: #D0D0D0;
@@ -106,65 +110,77 @@ nav {
   nav .btn-primary {
     border: none;
     background-color: transparent; }
+  nav .btn-primary:hover {
+    background-color: transparent; }
   nav img {
     width: 60px; }
   nav .header {
     height: 75px; }
-  nav .nav {
-    height: 65px; }
-  nav .input_responsive input {
-    width: 0px;
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #015958;
-    outline: none;
-    border-radius: 30px;
-    transition: all 0.6s ease; }
-  nav .input_responsive .btn {
-    position: relative;
-    right: 49px;
-    bottom: 2px;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    background-color: #015958;
-    color: white;
-    border-radius: 50%;
-    padding: 0px; }
-  nav .nav {
-    display: none; }
-  nav .input_responsive:hover input {
-    width: 240px; }
-  nav .nav_redirects i {
-    margin-right: 20px;
-    color: white; }
-  nav .redirects a {
-    color: white;
-    text-decoration: none; }
-  nav .SearchBar input {
-    width: 60%;
-    height: 42px;
-    background: #0CABA8;
-    color: white;
-    font-style: normal;
+
+.nav {
+  height: 65px; }
+
+.input_responsive input {
+  width: 0px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #015958;
+  outline: none;
+  border-radius: 30px;
+  transition: all 0.6s ease; }
+
+.input_responsive .btn {
+  position: relative;
+  right: 49px;
+  bottom: 2px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #015958;
+  color: white;
+  border-radius: 50%;
+  padding: 0px; }
+
+.nav {
+  display: none; }
+
+.input_responsive:hover input {
+  width: 240px; }
+
+.nav_redirects i {
+  margin-right: 20px;
+  color: white; }
+
+.redirects a {
+  color: white;
+  text-decoration: none; }
+
+.SearchBar input {
+  width: 60%;
+  height: 42px;
+  background: #0CABA8;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  border-radius: 5px; }
+
+.nav p {
+  color: white;
+  font-size: 20px; }
+
+.List li {
+  list-style-type: none;
+  text-shadow: 0px 4px 4px black; }
+  .List li a {
+    text-decoration: none;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    border-radius: 5px; }
-  nav .dropdown p {
+    font-size: 25px;
     color: white;
-    font-size: 20px; }
-  nav .List li {
-    list-style-type: none;
-    text-shadow: 0px 4px 4px black; }
-    nav .List li a {
-      text-decoration: none;
-      font-weight: 400;
-      font-size: 25px;
-      color: white;
-      margin: 5px; }
+    margin: 20px; }
 
 .Register {
   background: #D9D9D9;
@@ -201,6 +217,10 @@ nav {
   .Quienes_Somos .Nosotros img {
     width: 200px;
     height: 200px; }
+  .Quienes_Somos .Nosotros .PCQS {
+    margin-left: 20px; }
+  .Quienes_Somos .Nosotros .PCQS2 {
+    margin-right: 20px; }
   @media screen and (max-width: 1200px) {
     .Quienes_Somos .Quienes_Somos {
       width: 100%; }
@@ -208,6 +228,10 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      .Quienes_Somos .Nosotros .PCQS {
+        margin: 0px; }
+      .Quienes_Somos .Nosotros .PCQS2 {
+        margin: 0px; }
     .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
       width: 100%;
       margin-bottom: 20px; }
@@ -237,6 +261,10 @@ nav {
   .Quienes_Somos .Nosotros img {
     width: 200px;
     height: 200px; }
+  .Quienes_Somos .Nosotros .PCQS {
+    margin-left: 20px; }
+  .Quienes_Somos .Nosotros .PCQS2 {
+    margin-right: 20px; }
   @media screen and (max-width: 1200px) {
     .Quienes_Somos .Quienes_Somos {
       width: 100%; }
@@ -244,6 +272,10 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      .Quienes_Somos .Nosotros .PCQS {
+        margin: 0px; }
+      .Quienes_Somos .Nosotros .PCQS2 {
+        margin: 0px; }
     .Quienes_Somos .Nosotros .texto, .Quienes_Somos .Nosotros .PP_contenido {
       width: 100%;
       margin-bottom: 20px; }

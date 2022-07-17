@@ -10,13 +10,18 @@ nav {
         border: none;
         background-color: transparent;
     }
+
+    .btn-primary:hover{
+    background-color: transparent;
+    }
     
     img{
         width: 60px;
     
     }
     .header {height: 75px;
-    
+        }
+
     }
     .nav{
         height: 65px;
@@ -74,16 +79,16 @@ nav {
         width:map-get($searchbar_input, width ) ;
         height:map-get($searchbar_input, height ) ;
         background:map-get($searchbar_input, background ) ;
-        color:map-get($searchbar_input, color ) ;
+        color:black;
         font-style:map-get($searchbar_input, font-style ) ;
         font-weight:map-get($searchbar_input, font-weight ) ;
-        font-size:map-get($searchbar_input, font-size ) ;
+        font-size: 25px ;
         line-height:map-get($searchbar_input, line-height ) ;
         border-radius:map-get($searchbar_input, border-radius ) ;
     
     }
     
-    .dropdown p{
+    .nav p{
         color: white; 
         font-size: 20px;
     
@@ -98,9 +103,9 @@ nav {
             font-weight: 400;
             font-size: 25px;
             color: white;
-            margin: 5px;
+            margin: 20px;
         
         }
     }
-}
+
 

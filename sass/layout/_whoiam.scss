@@ -22,14 +22,27 @@
             width: 200px;
             height: 200px;
         }
+        .PCQS{
+            margin-left: 20px;
+        }
+        .PCQS2{
+            margin-right: 20px;
+        }
     }
     @media screen and (max-width: 1200px){
         .Quienes_Somos{
             width: 100%;
+            
         }
 
         .Nosotros{
             @include flex(flex,column,center);
+            .PCQS{
+                margin: 0px;
+            }
+            .PCQS2{
+                margin:0px;
+            }
         
         }
             
