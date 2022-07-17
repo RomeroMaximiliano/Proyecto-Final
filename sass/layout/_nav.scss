@@ -27,6 +27,7 @@ nav {
         height: 65px;
     
     }
+
     .input_responsive input{
         width:map-get($responsive_input, width ) ;
         height:map-get($responsive_input, height ) ;
@@ -107,5 +108,4 @@ nav {
         
         }
     }
-
 

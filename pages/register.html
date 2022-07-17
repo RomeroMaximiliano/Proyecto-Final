@@ -114,50 +114,62 @@
 <main>
     <main class="container-fluid p-5 d-flex">
         <form class="p-5 Register">
-            <div class="list d-flex flex-column flex-wrap " style="height:500px; width: 100%;">
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Usuario</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="container-grid">
+                <div class="Usuario">
+                    <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Email">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Conf-Email">
+                    <label for="exampleInputEmail1" class="form-label">Confirmar Email</label>
+                    <input type="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Autenticacion input_select">
+                    <label for="Autenticacion" class="form-label">Tipo de Autenticacion</label>
+                    <select name="Autenticacion" id="" class="Selector">
+                        <option value="D.N.I.">D.N.I.</option>
+                        <option value="Libreta de Enrolamiento">Libreta de Enrolamiento</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                    </select>
+                </div>
+                <div class="N-Autenticacion">
+                    <label for="exampleInputEmail1" class="form-label">Numero de Identidad</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Contraseña">
+                    <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Confirmar-Contraseña">
+                    <label for="exampleInputEmail1" class="form-label">Confirmar contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Fecha-de-Nacimiento">
+                    <label for="exampleInputEmail1" class="form-label">Fecha de nacimiento</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Telefono">
+                    <label for="exampleInputEmail1" class="form-label">Telefono</label>
+                    <input type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Direccion">
+                    <label for="exampleInputEmail1" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="Login">
+                    <button type="submit" class="btn btn-primary boton">Ingresar</button>
+                    <p>O</p>
+                </div>
+                <div class="Iconos">
+                    <ul>
+                        <li class="px-5"><i class="fa-brands fa-google fa-3x px-5" "=""></i></li>
+                        <li class="px-5"><i class="fa-brands fa-facebook fa-3x px-5" "=""></i></li>
+                    </ul>
+                </div>
             </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Confirmar Email</label>
-                <input type="email" class="form-control" git id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Numero de Identificacion</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-                <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Contraseña</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Confirmar Contraseña</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3r py-2">
-                <label for="exampleInputEmail1" style="width:80%;" class="form-label">Fecha de Nacimiento</label>
-                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            </div>
-            <div class="button d-flex justify-content-center mt-5"><button type="submit" class="btn btn-primary boton">Ingresar</button></div>       
-            <p class="text-center mt-5" style="font-size: 200%;">O</p>
-            <ul class="icon d-flex justify-content-center p-5">
-                <li class="px-5"><i class="fa-brands fa-google fa-3x px-5""></i></li>               
-                <li class="px-5"><i class="fa-brands fa-facebook fa-3x px-5" "></i></li>
-            </ul>
         </form>
         <img class="VerticalBanner ps-5 d-none d-xl-inline"src="../img/vertical asus.webp" alt="banner" style=" width: 500px;">
 </main>
